@@ -1,0 +1,98 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: NtDriverLoader - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/NtDriverLoader.res" /d "_DEBUG" /d "_AFXDLL" "C:\Program Files\Microsoft Visual Studio\MyProjects\NtDriverLoader\NtDriverLoader.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP54.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/NtDriverLoader.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Program Files\Microsoft Visual Studio\MyProjects\NtDriverLoader\MD5Checksum.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\NtDriverLoader\NtDriverLoader.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\NtDriverLoader\NtDriverLoaderDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP54.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP55.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/NtDriverLoader.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Program Files\Microsoft Visual Studio\MyProjects\NtDriverLoader\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP55.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP56.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/NtDriverLoader.pdb" /debug /machine:I386 /out:"Debug/NtDriverLoader.exe" /pdbtype:sept 
+".\Debug\MD5Checksum.obj"
+".\Debug\NtDriverLoader.obj"
+".\Debug\NtDriverLoaderDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\NtDriverLoader.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP56.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MD5Checksum.cpp
+NtDriverLoader.cpp
+NtDriverLoaderDlg.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/NtDriverLoader.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\MD5Checksum.sbr" ".\Debug\NtDriverLoader.sbr" ".\Debug\NtDriverLoaderDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+NtDriverLoader.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NtDriverLoader - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/NtDriverLoader.res" /d "NDEBUG" /d "_AFXDLL" "C:\Program Files\Microsoft Visual Studio\MyProjects\NtDriverLoader\NtDriverLoader.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP58.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/NtDriverLoader.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Program Files\Microsoft Visual Studio\MyProjects\NtDriverLoader\MD5Checksum.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\NtDriverLoader\NtDriverLoader.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\NtDriverLoader\NtDriverLoaderDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP58.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP59.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/NtDriverLoader.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Program Files\Microsoft Visual Studio\MyProjects\NtDriverLoader\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP59.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5A.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/NtDriverLoader.pdb" /machine:I386 /out:"Release/NtDriverLoader.exe" 
+".\Release\MD5Checksum.obj"
+".\Release\NtDriverLoader.obj"
+".\Release\NtDriverLoaderDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\NtDriverLoader.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5A.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MD5Checksum.cpp
+NtDriverLoader.cpp
+NtDriverLoaderDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+NtDriverLoader.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

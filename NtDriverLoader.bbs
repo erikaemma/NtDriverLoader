@@ -1,0 +1,3 @@
+[Batch Build]
+NtDriverLoader - Win32 Debug=1
+NtDriverLoader - Win32 Release=1
